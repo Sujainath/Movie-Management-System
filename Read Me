@@ -1,4 +1,5 @@
 Movie Management System 
+
 Project Overview
 This is a Java-based Command Line Interface (CLI) application designed to manage a personal movie watchlist. The project serves as a practical implementation of the Java Collections Framework, specifically focusing on ArrayList and its various manipulation techniques to handle dynamic data.
 
