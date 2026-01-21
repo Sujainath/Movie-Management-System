@@ -1,0 +1,32 @@
+Movie Management System 
+Project Overview
+This is a Java-based Command Line Interface (CLI) application designed to manage a personal movie watchlist. The project serves as a practical implementation of the Java Collections Framework, specifically focusing on ArrayList and its various manipulation techniques to handle dynamic data.
+
+Key Features
+Dynamic Watchlist: Users can add movies to their list in real-time using a menu-driven interface.
+
+Duplicate Prevention: Implements logic to check if a movie already exists before adding, ensuring a unique list.
+
+Data Normalization: Uses .trim() and .toLowerCase() to handle user input errors like extra spaces or inconsistent casing (e.g., "Leo" vs "leo").
+
+Smart Deletion & History: Removed movies are automatically moved to a deletedHistory list, acting as a "Recycle Bin" to track previous entries.
+
+Sorting & Analytics: Provides options to sort movies alphabetically using Collections.sort() and displays the total movie count using the .size() method.
+
+Input Integrity: Designed to handle common scanner buffer issues and prevent crashes during navigation.
+
+Technical Stack
+Language: Java (JDK 8+)
+
+Data Structures: ArrayList for dynamic storage
+
+Tools: Scanner class for interactive user input, Collections class for sorting, and Iterator for list traversal.
+
+Learning Outcomes
+Through this project, I mastered:
+
+Collections Framework: Managing dynamic lists and state between multiple ArrayList objects.
+
+String Handling: Sanitizing user inputs to ensure data accuracy.
+
+Debugging: Using Breakpoints and variable watches to trace logic flow and resolve InputMismatchException errors.
